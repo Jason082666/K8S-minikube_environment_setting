@@ -15,18 +15,18 @@ spec:
               service:
                 name: pod-1-service
                 port:
-                  number: 3000
+                  number: 80
           - path: /v1/helloworld2
             pathType: Prefix
             backend:
               service:
                 name: pod-2-service
                 port:
-                  number: 3001
+                  number: 80
           - path: /v1/helloworld3
             pathType: Prefix
             backend:
               service:
                 name: pod-3-service
                 port:
-                  number: 3002
+                  number: 80
